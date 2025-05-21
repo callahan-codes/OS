@@ -1,0 +1,21 @@
+@import url('./os.css');
+@import url('./as.css');
+@import url('./snake.css');
+@import url('https://fonts.cdnfonts.com/css/br-segma');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+    font-family: 'BR Segma', sans-serif;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

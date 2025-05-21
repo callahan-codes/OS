@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BC | os</title>
+  <link rel="icon" href="./media/images/icon-aboutme.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./style/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+    <!-- particles background -->
+    <div id="particles-js"></div>
+
+    <!-- os main display -->
+    <div class="os-screen">
+
+        <!-- folders -->
+        <div class="os-app-grid">
+
+            <div id="mainscreen-applications_AboutMe">
+                <img src="./media/images/icon-aboutme.png" draggable="false" alt="About Me graphic"/>
+                <p>Portfolio</p>
+            </div>
+
+            <div id="mainscreen-applications_Projects">
+                <img src="./media/images/icon-folder.png" draggable="false" alt="Folder graphic"/>
+                <p>Projects</p>
+            </div>
+            
+            <div id="mainscreen-applications_SnakeGame">
+                <img src="./media/images/icon-snake.png" draggable="false" alt="Snake.io graphic"/>
+                <p>Snake.io</p>
+            </div>
+
+            <div id="mainscreen-applications_Credits">
+                <img src="./media/images/icon-credits.png" draggable="false" alt="Credits graphic"/>
+                <p>Credits</p>
+            </div>
+        </div>
+
+        <!-- dynamic content -->
+        <div class="os-footer-menu-display" id="os-footer-menu-display"></div>
+        <div id="os-screen-content"></div>
+
+    </div>
+
+    <!-- os task bar -->
+    <div class="os-footer">
+
+        <!-- hamburger menu -->
+        <div class="os-footer-toggle_menu">
+
+            <div class="os-footer-burger_menu" id="os-footer-burger_menu">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+        </div>
+
+        <!-- opened apps -->
+        <div class="os-footer-apps" id="os-footer-apps"></div>
+
+    </div>
+
+    <!-- script calls -->
+    <script src="./script/particles.js"></script>
+    <script src="./script/index.js" type="module"></script>
+
+</body>
+</html>
